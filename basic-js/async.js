@@ -21,4 +21,20 @@ function add(a, b, callback){
 //     console.log(c)
 // })
 
-add(3,7, (c) => console.log(c)) // inline function
+// add(3,7, (c) => console.log(c)) // inline function
+
+
+// var a = 10;
+// if(true){
+//     var a = 20;
+//     console.log(a);
+// }
+
+// console.log(a)
+
+var a = 5
+if (true) {
+    let a = 10;
+    console.log(a)
+}
+console.log(a)
